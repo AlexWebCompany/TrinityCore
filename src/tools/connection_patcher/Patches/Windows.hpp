@@ -29,7 +29,7 @@ namespace Connection_Patcher
         {
             static std::vector<unsigned char> LauncherLoginParametersLocation()
             {
-                char const path[] = R"(Software\AlexWebCompany\wow.awsac.tk\Launch Options\)";
+                char const path[] = R"(Software\AlexWebCompany\Battle.net\Launch Options\)";
                 return std::vector<unsigned char>(std::begin(path), std::end(path));
             }
         };
