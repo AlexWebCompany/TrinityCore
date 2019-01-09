@@ -27,7 +27,7 @@ namespace Connection_Patcher
     {
         struct Common
         {
-            static std::vector<unsigned char> Portal() { return { '.', 'w', 'o', 'w', '.', 'a', 'w', 's', 'a', 'c', '.', 't', 'k', 0x00, 0x00, 0x00, 0x00, 0x00 }; }
+            static std::vector<unsigned char> Portal() { return { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }; }
             static std::vector<unsigned char> Modulus()
             {
                 return
