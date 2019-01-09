@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2008-2018 TrinityCore <https://www.trinitycore.org/>
+ * Copyright (C) 2008-2019 TrinityCore <https://www.trinitycore.org/>
  * Copyright (C) 2005-2009 MaNGOS <http://getmangos.com/>
  *
  * This program is free software; you can redistribute it and/or modify it
@@ -562,7 +562,9 @@ enum AuraType : uint32
     SPELL_AURA_489                                          = 489,
     SPELL_AURA_490                                          = 490,
     SPELL_AURA_491                                          = 491,
-    TOTAL_AURAS                                             = 492
+    SPELL_AURA_492                                          = 492,
+    SPELL_AURA_493                                          = 493, // 1 spell, 267116 - Animal Companion (modifies Call Pet)
+    TOTAL_AURAS
 };
 
 enum AuraObjectType
